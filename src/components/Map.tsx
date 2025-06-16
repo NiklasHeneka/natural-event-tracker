@@ -6,7 +6,7 @@ import LocationMarker, {type HazardType} from "./LocationMarker.tsx";
 import type {NaturalEvent} from "../App.tsx";
 
 const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
-const mapId = import.meta.env.VITE_GOOGLE_MAP_ID;
+const mapId = import.meta.env.VITE_GOOGLE_MAP_ID ?? "b2ac75a838aee96a840a7c75"
 
 const NATURAL_EVENT_WILDFIRE = "wildfires"
 const NATURAL_EVENT_SEVERE_STORMS = "severeStorms"

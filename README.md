@@ -8,7 +8,8 @@ This app shows the locations of wildfires and severe storms that are currently a
 
 Download or clone the repository.
 
-Specify your Google Maps JavaScript API key and your Google Map-ID in the .env file.
+Specify your Google Maps JavaScript API key in the .env file.
+Optionally specify a Google Map-ID for a map design in the .env file.
 
 Run the following commands in the root directory:
 
